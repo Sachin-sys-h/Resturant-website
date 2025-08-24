@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <img src="../images/chicken-biryani.avif" width="119" alt="" class="logo">
+    <div class="header-text">
+      <div class="resturant-name">Royal Spice</div>
+      <h1>🛒 Your cart</h1>
+
+
+    </div>
+
+
+  </header>
+
+
+  <!-- table no. -->
+  <main class="main-cart">
+    <label for="">Table No:</label>
+
+
+    <select name="" id="tableNo">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="5">6</option>
+      <option value="5">7</option>
+      <option value="5">8</option>
+    </select>
+    <!-- Cart item list -->
+    <div id="cart-items"></div>
+    <!-- total -->
+    <h3 id="total"></h3>
+    <!-- Button -->
+    <div class="cart-button">
+      <button onclick="placeOrder()" id="place-order">Place Order</button>
+      <button onclick="generateBill()" id="download-bill">Download Bill(pdf)</button>
+      <button onclick="goToBack()" id="back">Back</button>
+
+    </div>
+
+
+
+
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
