@@ -1,0 +1,54 @@
+[
+    {
+        "id": 1,
+        "name": "Paneer Butter Masala",
+        "description":"Creamy cottage cheese curry.",
+        "price":280,
+        "image":"../images/paneer.jpg"
+      
+
+        
+    },
+    {
+         "id": 2,
+        "name":"Veg Biryani",
+        "description":"Spicy rice with mixed vegetable.",
+        "price":150,
+        "image":"../images/veg-biryani.avif"
+    },
+     {
+         "id": 3,
+        "name":"Tandoori",
+        "description":"Whole wheat tandoori roti.",
+        "price":20,
+         "image":"../images/tandoori-roti.avif"
+    },
+    {
+         "id": 4,
+        "name":"Chicken-Biryani",
+        "description":"Spicy rice with Chicken.",
+        "price":149,
+        "image":"../images/chicken-biryani.avif"
+    },
+    {
+         "id": 5,
+        "name":"Tandoori-Chicken",
+        "description":"Spicy and fry Chicken with masala",
+        "price":199,
+         "image":"../images/tandoori-chicken.avif"
+    },
+    {
+         "id": 6,
+        "name":"Tandoori-Momo",
+        "description":"Spicy taste momo.",
+        "price":139,
+        "image":"../images/tandoori-momo.avif"
+    },
+    {
+         "id": 7,
+        "name":"Paneer-Tika-Masala",
+        "description":"Spicy taste and fry paneer.",
+        "price":249,
+        "image":"../images/paneer-tika-masala.avif"
+    }
+]
